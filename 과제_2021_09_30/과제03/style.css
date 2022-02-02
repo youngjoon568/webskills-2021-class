@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.box {
+    width: 400px;
+    height: 100%;
+    background: #dfeae2;
+    transition: 1s;
+}
+
+input {
+    display: none;
+}
+
+label {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #78a3eb;
+    border-radius: 4px;
+    color: #fff;
+    margin: 20px;
+    position: absolute;
+}
+
+input:checked + label + div {
+    width: 100%;
+}

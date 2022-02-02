@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 4px solid #000;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #b7673c;
+    border-bottom: 4px solid #000;
+}
+
+nav {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #8d769a;
+    border-bottom: 4px solid #000;
+}
+
+section {
+    width: 60%;
+    height: 200px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #6baf92;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+article {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #000;
+}
+
+article:nth-child(2) {
+    background: #32aaaa;
+}
+
+
+article:nth-child(3) {
+    background: #5e72be;
+}
+
+aside {
+    width: 40%;
+    height: 200px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #88cdf6;
+    border-left: 4px solid #000;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #4e9c81;
+    border-top: 4px solid #000;
+}
+
+header:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #fbc2eb;
+    color: #7c1f4c;
+
+}
+
+nav:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #78a3eb;
+    color: #013b63;
+}
+
+section:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #1791b1;
+}
+
+section:hover span {
+    color: #08535d;
+}
+
+article:nth-child(2):hover {
+    z-index: 2;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #e5d1b8;
+    color: #ff9190;
+}
+
+article:nth-child(3):hover {
+    z-index: 2;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #68507b;
+    color: #591da9;
+}
+
+
+aside:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #a0bacc;
+    color: #d9d8d9;
+}
+
+footer:hover {
+    z-index: 1;
+    transform: scale(1.2);
+    transition: transform 0.5s;
+    border: 4px solid #000;
+    background: #53a7d8;
+    color: #08546c;
+}

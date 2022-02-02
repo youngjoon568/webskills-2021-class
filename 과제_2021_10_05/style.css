@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    outline: none;
+	font: inherit;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url("./image/qwqew.jpeg");
+}
+
+.main-header {
+    width: 100%;
+}
+
+.main-header img {
+    width: 100%;
+    height: 100%;
+}
+
+.txt-box {
+    text-align: center;
+}
+
+.txt-box h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.dd {
+    width: 28%;
+    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+.fa-train {
+    font-size: 1.6rem;
+    color: #53a7d8;
+    position: absolute;
+    top: -5px;
+}
+
+.txt-box p {
+    font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+.container {
+    width: 1300px;
+    height: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    background: #fff;
+}
+
+.container .box:nth-child(2) {
+    width: 400px;
+    height: 550px;
+}
+
+.container .box:nth-child(2) .box-header {
+    width: 100%;
+    height: 40px;
+    background: #53a7d8;
+} 
+
+.container .box:nth-child(2) .number-box {
+    margin-top: 20px;
+}
+
+.box-header {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 1.6rem;
+    color: #fff;
+    text-align: center;
+    background: #000;
+}
+
+.number-box {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.fa-dollar-sign {
+    position: absolute;
+    bottom: 50px;
+    left: 130px;
+}
+
+.number-box h2 {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.number-box h2 i {
+    color: #ddd;
+    font-size: 2.6rem;
+}
+
+
+.number-box h2 span {
+    font-size: 1.4rem;
+    color: #aaa;
+}
+
+.check-box {
+    width: 90%;
+    height: 250px;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+}
+
+.check-box i {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.check-box ul {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+li > .fas {
+    color: #53a7d8;
+}
+
+li >  .fa-times {
+    color: #ddd;
+}
+
+.box-footer {
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.box-footer a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 1.6rem;
+    background: #dddd;
+}
+
+.container .box:nth-child(2) .box-footer a {
+    background: #53a7d8;
+    color: #fff;
+}
